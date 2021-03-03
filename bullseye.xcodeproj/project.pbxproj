@@ -13,7 +13,6 @@
 		B25FD0B025ADE6CC005C709D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25FD0AF25ADE6CC005C709D /* Assets.xcassets */; };
 		B25FD0B325ADE6CC005C709D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25FD0B225ADE6CC005C709D /* Preview Assets.xcassets */; };
 		B25FD0BE25ADE6CC005C709D /* bullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25FD0BD25ADE6CC005C709D /* bullseyeTests.swift */; };
-		B25FD0C925ADE6CC005C709D /* bullseyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25FD0C825ADE6CC005C709D /* bullseyeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +44,6 @@
 		B25FD0BD25ADE6CC005C709D /* bullseyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bullseyeTests.swift; sourceTree = "<group>"; };
 		B25FD0BF25ADE6CC005C709D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B25FD0C425ADE6CC005C709D /* bullseyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bullseyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B25FD0C825ADE6CC005C709D /* bullseyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bullseyeUITests.swift; sourceTree = "<group>"; };
-		B25FD0CA25ADE6CC005C709D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +102,6 @@
 			children = (
 				B25FD0AA25ADE6C5005C709D /* bullseye */,
 				B25FD0BC25ADE6CC005C709D /* bullseyeTests */,
-				B25FD0C725ADE6CC005C709D /* bullseyeUITests */,
 				B25FD0A925ADE6C5005C709D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -146,15 +142,6 @@
 				B25FD0BF25ADE6CC005C709D /* Info.plist */,
 			);
 			path = bullseyeTests;
-			sourceTree = "<group>";
-		};
-		B25FD0C725ADE6CC005C709D /* bullseyeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B25FD0C825ADE6CC005C709D /* bullseyeUITests.swift */,
-				B25FD0CA25ADE6CC005C709D /* Info.plist */,
-			);
-			path = bullseyeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,7 +291,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B25FD0C925ADE6CC005C709D /* bullseyeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
