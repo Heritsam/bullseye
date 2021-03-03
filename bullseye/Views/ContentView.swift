@@ -33,7 +33,7 @@ struct ContentView: View {
       }
       Button(action: {
         alertIsVisible = true
-      }){
+      }) {
         Text("Hit me")
       }
       .alert(isPresented: $alertIsVisible) {
